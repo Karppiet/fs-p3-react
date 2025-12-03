@@ -6,7 +6,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./App.css";
-import Dropdown from "react-bootstrap/Dropdown";
 import Snippets from "./components/Snippets"
 
 const App = () => {
@@ -24,9 +23,9 @@ const App = () => {
           <Col>
         <Form.Select aria-label="Language">
           <option value="">Language</option>
-          <option value="apple">Javascript</option>
-          <option value="banana">Python</option>
-          <option value="orange">Java</option>
+          <option value="Javascript">Javascript</option>
+          <option value="Python">Python</option>
+          <option value="Java">Java</option>
         </Form.Select>
           </Col>
           <Col>
