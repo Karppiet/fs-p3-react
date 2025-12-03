@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
+import Button from "react-bootstrap/Button";
 
 function Snippets() {
     const [Snippets, setSnippets] = useState([])
 
-    useEffect(() => {
-        fetch('https://fullstack-snippet-api.onrender.com/api/snippets')
-        .then((r) => r.json())
-        .then(setSnippets)
-    }, [])
+    const handleClick = async() => {
+        const r = await fetch('https://fullstack-snippet-api.onrender.com/api/snippets')
+        const data = await r.json();
+        setSnippets(data);
+        console.log(data);
+}
 
      return(
         <div>
@@ -15,7 +17,7 @@ function Snippets() {
                 <div className="snippets-header">
                 Snippets
                 </div>
-                <BUTTON></BUTTON>
+                <Button onClick={handleClick}>Show All</Button>
                 <div className="snippets-content">
                     <ul className="snippets-list">
                     {Snippets.map((snippet) => (
@@ -34,3 +36,4 @@ function Snippets() {
 }
 
 export default Snippets;
+

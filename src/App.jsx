@@ -41,7 +41,6 @@ const App = () => {
         <Button>Add snippet</Button> 
         <br /> 
         <br />
-        <Button>See snippets</Button>
       </Form>
       <Snippets></Snippets>
     </div>
