@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 
 function Snippets() {
-    const [Snippets, setSnippets] = useState([])
+    const [Snippets, setSnippets] = useState([]);
 
     const handleClick = async() => {
         const r = await fetch('https://fullstack-snippet-api.onrender.com/api/snippets')

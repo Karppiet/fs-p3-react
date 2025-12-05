@@ -1,8 +1,9 @@
-// import "./App.css";
-import { React, useState } from "react";
-import "./App.css";
+
+// import { React, useState } from "react";
+import './App.css'; ;
 import Form from "./components/SnippetForm"
 import Snippets from "./components/Snippets"
+import Fetch from "./components/Fetch_axios"
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <br />
       <Form></Form>
       <Snippets></Snippets>
+      <Fetch></Fetch>
     </div>
   );
 };
