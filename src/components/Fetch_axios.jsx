@@ -37,7 +37,7 @@ function Fetch() {
 
   return (
     <div style={{ padding: '20px' }}>
-      <h1 style={{ color: '#2e3a8c' }}>MERN App: Live Data Display</h1>
+      <h1 style={{ color: '#2e3a8c' }}>Code Snippets</h1>
       {items.length === 0 && (
         <p>No items found. Check your database.</p>
       )}
