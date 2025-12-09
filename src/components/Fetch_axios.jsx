@@ -4,7 +4,7 @@ import axios from 'axios';
 
 // base URL can come from Vite environment variable
 const API_BASE_URL =
-  "https://fullstack-snippet-api.onrender.com"  || 'http://localhost:3000';
+     import.meta.env.VITE_API_URL;
 
 function Fetch() {
   const [items, setItems] = useState([]);      // response data
