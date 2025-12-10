@@ -30,7 +30,7 @@ You can add new snippets using the form:
 
 <img width="1662" height="681" alt="Screenshot 2025-12-10 112847" src="https://github.com/user-attachments/assets/7e12d4bd-725f-4bb4-8260-7cb606c01b39" />
 
-Then when you reload the page you can see your new snippet:
+Then the page reloads and you can see your new snippet:
 
 <img width="1569" height="403" alt="Screenshot 2025-12-10 113037" src="https://github.com/user-attachments/assets/ce96c24f-bca8-47a5-a5b8-b8e7af9e51c2" />
 
