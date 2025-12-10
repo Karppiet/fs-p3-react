@@ -17,6 +17,7 @@ function SnippetForm() {
 
     const handleSubmit = async (event) => {
     event.preventDefault();
+   
 
     const data = { title, language, code };
 
@@ -27,6 +28,7 @@ function SnippetForm() {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(data)
+        
       });
 
       if (!response.ok) {
@@ -35,6 +37,7 @@ function SnippetForm() {
 
       const result = await response.json();
       console.log(result);
+      window.location.reload();
     } catch (error) {
       console.error('Error:', error);
     }
