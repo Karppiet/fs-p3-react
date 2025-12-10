@@ -7,11 +7,14 @@ Live: https://fs-p3-react.onrender.com/
 ## Setup Instructions
 
 1. Install dependencies defined in package.json
-npm install
+   
+	npm install
 
-2. Start the react application with npm run dev
+3. Start the react application with
+   
+	npm run dev
 	
-3. Go to the localhost prompted (Usually http://localhost:5173/)
+6. Go to the localhost prompted (Usually http://localhost:5173/)
 
 ## Technology Stack
 
