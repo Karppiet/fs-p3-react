@@ -43,4 +43,4 @@ It automatically fetches all the snippets from the database when started.
 You can post new code snippets using the form.
 It has been a bit challenging project, timeframe was too strict and it was the last school project of this autumn. 
 I don't have most of the functionality that I wanted and what was needed in the project to make it complete. 
-But anyway I learnt the basics of React with it, the challenging part was integrating the Api Snippet API to the back end. 
+But anyway I learnt the basics of React with it, the challenging part was integration the back end. 
