@@ -1,4 +1,4 @@
-import axios from "axios";
+
 // import { useApi } from "../hooks/use_Api";
 import Form from "react-bootstrap/Form";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -45,13 +45,13 @@ function SnippetForm() {
     <Form onSubmit={handleSubmit} >
       <Row>
         <Col>
-          <Form.Control type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)}  />
+          <Form.Control name="title" type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)}  />
         </Col>
         <Col>
-          <Form.Control type="text" placeholder="Language" value={language} onChange={(e) => setLanguage(e.target.value)} />
+          <Form.Control name="language" type="text" placeholder="Language" value={language} onChange={(e) => setLanguage(e.target.value)} />
         </Col>
         <Col>
-          <Form.Control type="text" placeholder="Code" value={code}  onChange={(e) => setCode(e.target.value)} />
+          <Form.Control name="code" placeholder="Code" value={code}  onChange={(e) => setCode(e.target.value)} />
         </Col>
         <Col>
           <Form.Control type="texts" placeholder="Tags" />

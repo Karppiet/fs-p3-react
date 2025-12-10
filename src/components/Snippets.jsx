@@ -5,7 +5,7 @@ function Snippets() {
     const [Snippets, setSnippets] = useState([]);
 
     const handleClick = async() => {
-        const r = await fetch('https://fullstack-snippet-api.onrender.com/api/snippets')
+        const r = await fetch('');
         const data = await r.json();
         setSnippets(data);
         console.log(data);
