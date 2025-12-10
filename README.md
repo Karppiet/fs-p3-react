@@ -18,7 +18,7 @@ Live: https://fs-p3-react.onrender.com/
 
 ## Technology Stack
 
-React, Axios, JS
+React, Axios, JS, Bootstrap
 
 ## Usage
 
