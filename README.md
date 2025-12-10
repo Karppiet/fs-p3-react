@@ -44,3 +44,14 @@ You can post new code snippets using the form.
 It has been a bit challenging project, timeframe was too strict and it was the last school project of this autumn. 
 I don't have most of the functionality that I wanted and what was needed in the project to make it complete. 
 But anyway I learnt the basics of React with it, the challenging part was integration to the back end. 
+
+
+## Video timestamps
+
+00:00 Intro
+
+00:10 Architecture of the app
+
+01:30 Demo
+
+02:35 Closure
