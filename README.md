@@ -1,16 +1,35 @@
-# React + Vite
+# React frontend for Snippet API (Project 3)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Deployment
 
-Currently, two official plugins are available:
+Live: https://fs-p3-react.onrender.com/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
 
-## React Compiler
+1. Install dependencies defined in package.json
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Start the react application with npm run dev
+	
+3. Go to the localhost prompted (Usually http://localhost:5173/)
 
-## Expanding the ESLint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React, Axios, JS
+
+## Usage
+
+Page loads all the code snippets from the database when started:
+
+<img width="1599" height="708" alt="Screenshot 2025-12-10 112714" src="https://github.com/user-attachments/assets/e4c9fc08-9a92-4c8e-8452-c7d76d3cdb98" />
+
+
+
+## Project Reflection
+
+I have made an Code snippet API frontend using REACT.
+It automatically fetches all the snippets from the database when started. 
+You can post new code snippets using the form.
+It has been a bit challenging project, timeframe was too strict and it was the last school project of this autumn. 
+I don't have most of the functionality that I wanted and what was needed in the project to make it complete. 
+But anyway I learnt the basics of React with it, the challenging part was integrating the Api Snippet API to the back end. 
